@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário das Cores</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+</head>
+<body class="fundo">
+    <header class="cabecalho">
+        <h1>Quem é seu parente divino?</h1>
+    </header>
+
+    <section>
+        <div class="espaco"></div>
+        <div class="aviso">
+            <div class="espaco"></div>
+            <p class="avisao">Aviso</p>
+            <p class="textin">Este quiz foi elaborado com base em uma adaptação das características dos deuses gregos presentes 
+                na série de livros do autor Rick Riordan. Por isso, algumas divindades, como Atena, aparecem na lista,
+                 mesmo que sua filiação não seja comum na mitologia tradicional.</p>
+            <p class="textin">
+                - O quiz consiste em perguntas baseadas nas suas preferências e comportamentos, com cada resposta te aproximando 
+                de um deus grego específico. <br>
+                - Cada pergunta possui uma escala de 1 a 6, onde 1 significa "não me identifico" e 6 significa "me identifico totalmente". <br>
+                - Ao final do quiz, sua pontuação será calculada e você descobrirá de qual deus ou deusa você é filho(a). <br>
+            </p>
+            <p class="textin">
+                se divirta caro semideus
+            </p>
+        </div>
+
+        <div class="espaco2"></div>
+
+        <div class="d-flex">
+            <div class="quadro">
+                <form id="perguntasFormulario">
+        
+                    <div class="grupo pergunta" id="grupo1">
+                        <div class="pergunta">
+                            <label for="pergunta1">1. De 1 a 6, o quanto você se preocupa com sua aparencia?</label><br>
+                            <input type="number" id="pergunta1" name="pergunta1" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta2">2. De 1 a 6, você se apaixona e "desapaixona" com facilidade?</label><br>
+                            <input type="number" id="pergunta2" name="pergunta2" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta3">3. De 1 a 6, o quanto você gosta de brincar e pregar peças com os outros?</label><br>
+                            <input type="number" id="pergunta3" name="pergunta3" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta4">4. De 1 a 6, o quanto você é emocional?</label><br>
+                            <input type="number" id="pergunta4" name="pergunta4" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta5">5. De 1 a 6, o quanto você é ciumento?</label><br>
+                            <input type="number" id="pergunta5" name="pergunta5" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo2">
+                        <div class="pergunta">
+                            <label for="pergunta6">6. De 1 a 6, o quanto você gosta de dar e receber carinho?</label><br>
+                            <input type="number" id="pergunta6" name="pergunta6" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta7">7. De 1 a 6, o quanto você mantém a calma em mometos difíceis?</label><br>
+                            <input type="number" id="pergunta7" name="pergunta7" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta8">8. De 1 a 6, o quanto você toma decisões racionais antes de agir?</label><br>
+                            <input type="number" id="pergunta8" name="pergunta8" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta9">9. De 1 a 6, o quanto você gosta de estar no controle de uma situação?</label><br>
+                            <input type="number" id="pergunta9" name="pergunta9" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta10">10. De 1 a 6, o quanto você evita de ser influenciado pelas suas emoções?</label><br>
+                            <input type="number" id="pergunta10" name="pergunta10" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo3">
+                        <div class="pergunta">
+                            <label for="pergunta11">11. De 1 a 6, o quanto você é individualista?</label><br>
+                            <input type="number" id="pergunta11" name="pergunta11" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta12">12. De 1 a 6, o quanto você guarda rancor de alguém quando ela te faz algum mal?</label><br>
+                            <input type="number" id="pergunta12" name="pergunta12" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta13">13. De 1 a 6, o quanto você se enteressa pela magia ou pelo místico?</label><br>
+                            <input type="number" id="pergunta13" name="pergunta13" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta14">14. De 1 a 6, o quanto você tem dificuldade de se abrir para os outros?</label><br>
+                            <input type="number" id="pergunta14" name="pergunta14" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta15">15. De 1 a 6, o quanto você prefere resolver problemas por conta própria?</label><br>
+                            <input type="number" id="pergunta15" name="pergunta15" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo4">
+                        <div class="pergunta">
+                            <label for="pergunta16">16. De 1 a 6, o quanto você acha importante retribuir favores?</label><br>
+                            <input type="number" id="pergunta16" name="pergunta16" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta17">17. De 1 a 6, o quanto sua personalidade muda ao longo do dia?</label><br>
+                            <input type="number" id="pergunta17" name="pergunta17" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta18">18. De 1 a 6, o quanto você acredita na sorte e no azar?</label><br>
+                            <input type="number" id="pergunta18" name="pergunta18" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta19">19. De 1 a 6, o quanto você se encomoda com pessoas dramáticas?</label><br>
+                            <input type="number" id="pergunta19" name="pergunta19" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta21">20. De 1 a 6, o quanto você segue as regras?</label><br>
+                            <input type="number" id="pergunta21" name="pergunta21" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo5">
+                        <div class="pergunta">
+                            <label for="pergunta23">21. De 1 a 6, o quanto você gosta de jogos, seja de azar, aposta...?</label><br>
+                            <input type="number" id="pergunta23" name="pergunta23" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta24">22. De 1 a 6, o quanto você gosta de ajudar os outros?</label><br>
+                            <input type="number" id="pergunta24" name="pergunta24" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta25">23. De 1 a 6, o quanto você evita a tristeza?</label><br>
+                            <input type="number" id="pergunta25" name="pergunta25" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta26">24. De 1 a 6, o quanto você busca pela felicidade?</label><br>
+                            <input type="number" id="pergunta26" name="pergunta26" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta27">25. De 1 a 6, o quanto você tem dificuldade em dizer "não"?</label><br>
+                            <input type="number" id="pergunta27" name="pergunta27" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo6">
+                        <div class="pergunta">
+                            <label for="pergunta28">26. De 1 a 6, o quanto você se desculpa, mesmo sem fazer nada de errado?</label><br>
+                            <input type="number" id="pergunta28" name="pergunta28" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta29">27. De 1 a 6, o quanto você tem medo de ficar sozinho?</label><br>
+                            <input type="number" id="pergunta29" name="pergunta29" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta30">28. De 1 a 6, o quanto você é justo em suas decisões?</label><br>
+                            <input type="number" id="pergunta30" name="pergunta30" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta31">29. De 1 a 6, o quanto você guarda rancor e busca vingança?</label><br>
+                            <input type="number" id="pergunta31" name="pergunta31" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta32">30. De 1 a 6, o quanto você é sincero com os outros?</label><br>
+                            <input type="number" id="pergunta32" name="pergunta32" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo7"> 
+                        <div class="pergunta">
+                            <label for="pergunta33">31. De 1 a 6, o quanto você acredita que ninguém deve ter sorte sem merecer?</label><br>
+                            <input type="number" id="pergunta33" name="pergunta33" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta34">32. De 1 a 6, o quanto você é educado, mesmo irritado?</label><br>
+                            <input type="number" id="pergunta34" name="pergunta34" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta35">33. De 1 a 6, o quanto você é tranquilo e calmo?</label><br>
+                            <input type="number" id="pergunta35" name="pergunta35" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta36">34. De 1 a 6, o quanto você deixa tarefas para ultima hora?</label><br>
+                            <input type="number" id="pergunta36" name="pergunta36" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta37">35. De 1 a 6, o quanto você acredita nos sonhos ou gosta de refletir sobre eles?</label><br>
+                            <input type="number" id="pergunta37" name="pergunta37" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo8">
+                        <div class="pergunta">
+                            <label for="pergunta38">36. De 1 a 6, o quanto você é destraido ou está no "mundo da lua"?</label><br>
+                            <input type="number" id="pergunta38" name="pergunta38" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta39">37. De 1 a 6, o quanto você prefere lugares silencioso e tranquilos?</label><br>
+                            <input type="number" id="pergunta39" name="pergunta39" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta40">38. De 1 a 6, o quanto você valoriza a paz e evita o conflito?</label><br>
+                            <input type="number" id="pergunta40" name="pergunta40" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta41">39. De 1 a 6, o quanto você ajuda seus amigos?</label><br>
+                            <input type="number" id="pergunta41" name="pergunta41" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta42">40. De 1 a 6, o quanto você gosta de receber ordens de outras pessoas?</label><br>
+                            <input type="number" id="pergunta42" name="pergunta42" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo9">
+                        <div class="pergunta">
+                            <label for="pergunta43">41. De 1 a 6, o quanto você evita fazer o mal, mesmo em situações difíceis?</label><br>
+                            <input type="number" id="pergunta43" name="pergunta43" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta44">42. De 1 a 6, o quanto você evita a pressão e o estresse?</label><br>
+                            <input type="number" id="pergunta44" name="pergunta44" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta45">43. De 1 a 6, o quanto você gosta de ficar sozinho?</label><br>
+                            <input type="number" id="pergunta45" name="pergunta45" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta46">44. De 1 a 6, o quanto você evita falar seus de sentimentos?</label><br>
+                            <input type="number" id="pergunta46" name="pergunta46" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta47">45. De 1 a 6, o quanto você evita lugares com muita gente?</label><br>
+                            <input type="number" id="pergunta47" name="pergunta47" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo10">
+                        <div class="pergunta">
+                            <label for="pergunta48">46. De 1 a 6, o quanto você é reservado e guarda seus segredos?</label><br>
+                            <input type="number" id="pergunta48" name="pergunta48" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta49">47. De 1 a 6, o quanto você gosta de ser o centro das atenções?</label><br>
+                            <input type="number" id="pergunta49" name="pergunta49" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta50">48. De 1 a 6, o quanto você gosta de festas?</label><br>
+                            <input type="number" id="pergunta50" name="pergunta50" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta51">49. De 1 a 6, o quanto você vive de maneira despreocupada, deixando as coisas fluírem?</label><br>
+                            <input type="number" id="pergunta51" name="pergunta51" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta52">50. De 1 a 6, o quanto você gosta de adrenalina e aventuras?</label><br>
+                            <input type="number" id="pergunta52" name="pergunta52" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo11">
+                        <div class="pergunta">
+                            <label for="pergunta53">51. De 1 a 6, o quanto você é dramatico e expressivo?</label><br>
+                            <input type="number" id="pergunta53" name="pergunta53" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta54">52. De 1 a 6, o quanto você consegue conversar com as pessoas com facilidade?</label><br>
+                            <input type="number" id="pergunta54" name="pergunta54" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta55">53. De 1 a 6, o quanto você é curioso?</label><br>
+                            <input type="number" id="pergunta55" name="pergunta55" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta56">54. De 1 a 6, o quanto você gosta de conhecer novos lugares?</label><br>
+                            <input type="number" id="pergunta56" name="pergunta56" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta57">55. De 1 a 6, o quanto você gosta de fazer novas amizades?</label><br>
+                            <input type="number" id="pergunta57" name="pergunta57" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo12">
+                        <div class="pergunta">
+                            <label for="pergunta58">56. De 1 a 6, o quanto você é esperto?</label><br>
+                            <input type="number" id="pergunta58" name="pergunta58" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta59">57. De 1 a 6, o quanto você consegue achar soluções para os problemas?</label><br>
+                            <input type="number" id="pergunta59" name="pergunta59" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta60">58. De 1 a 6, o quanto você valoriza a beleza, tanto a sua quanto a dos outros?</label><br>
+                            <input type="number" id="pergunta60" name="pergunta60" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta61">59. De 1 a 6, o quanto você é confiante e seguro de si mesmo?</label><br>
+                            <input type="number" id="pergunta61" name="pergunta61" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta62">60. De 1 a 6, o quanto você gosta de dar e receber elogios?</label><br>
+                            <input type="number" id="pergunta62" name="pergunta62" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo13">
+                        <div class="pergunta ">
+                            <label for="pergunta63">61. De 1 a 6, o quanto você se acha uma pessoa influente?</label><br>
+                            <input type="number" id="pergunta63" name="pergunta63" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta64">62. De 1 a 6, o quanto você gosta de criar e inventar coisas novas?</label><br>
+                            <input type="number" id="pergunta64" name="pergunta64" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta65">63. De 1 a 6, o quanto você se preocupa em ser util e ajudar as pessoas?</label><br>
+                            <input type="number" id="pergunta65" name="pergunta65" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta66">64. De 1 a 6, o quanto você gosta de ser reconhecido por suas realizações?</label><br>
+                            <input type="number" id="pergunta66" name="pergunta66" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta67">65. De 1 a 6, o quanto você gosta de música, seja tocando algo ou ouvindo?</label><br>
+                            <input type="number" id="pergunta67" name="pergunta67" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo14">
+                        <div class="pergunta">
+                            <label for="pergunta68">66. De 1 a 6, o quanto você gosta de estar perto de amigos e familiares?</label><br>
+                            <input type="number" id="pergunta68" name="pergunta68" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta69">67. De 1 a 6, o quanto você aprecia a arte ou o esporte?</label><br>
+                            <input type="number" id="pergunta69" name="pergunta69" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta70">68. De 1 a 6, o quanto você gosta de aprender coisas novas?</label><br>
+                            <input type="number" id="pergunta70" name="pergunta70" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta71">69. De 1 a 6, o quanto você gosta de ler?</label><br>
+                            <input type="number" id="pergunta71" name="pergunta71" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta72">70. De 1 a 6, o quanto você valoriza a logica ao inves da emoção?</label><br>
+                            <input type="number" id="pergunta72" name="pergunta72" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo15">
+                        <div class="pergunta">
+                            <label for="pergunta73">71. De 1 a 6, o quanto você gosta de estar na liderança?</label><br>
+                            <input type="number" id="pergunta73" name="pergunta73" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta74">72. De 1 a 6, o quanto você age por impulso, sem pensar nas consequencias?</label><br>
+                            <input type="number" id="pergunta74" name="pergunta74" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta75">73. De 1 a 6, o quanto você é teimoso?</label><br>
+                            <input type="number" id="pergunta75" name="pergunta75" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta76">74. De 1 a 6, o quanto você prefere resolver conflitos atravez da força ou violencia?</label><br>
+                            <input type="number" id="pergunta76" name="pergunta76" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta77">75. De 1 a 6, o quanto você tem dificuldade de admitir seus erros?</label><br>
+                            <input type="number" id="pergunta77" name="pergunta77" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+        
+                    <div class="grupo pergunta" id="grupo16">
+                        <div class="pergunta">
+                            <label for="pergunta78">76. De 1 a 6, o quanto você valoriza proteger aqueles que ama?</label><br>
+                            <input type="number" id="pergunta78" name="pergunta78" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta79">77. De 1 a 6, o quanto você é leal e cumpre com suas promessas?</label><br>
+                            <input type="number" id="pergunta79" name="pergunta79" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta80">78. De 1 a 6, o quanto você se preocupa com o bem estar dos outros?</label><br>
+                            <input type="number" id="pergunta80" name="pergunta80" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta81">79. De 1 a 6, o quanto você é orgulhoso?</label><br>
+                            <input type="number" id="pergunta81" name="pergunta81" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta82">80. De 1 a 6, o quanto você gosta da agua?</label><br>
+                            <input type="number" id="pergunta82" name="pergunta82" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+                    <div class="grupo pergunta" id="grupo17">
+                        <div class="pergunta ">
+                            <label for="pergunta83">83. De 1 a 6, o quanto você se apega a objetos ou memorias?</label><br>
+                            <input type="number" id="pergunta83" name="pergunta83" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta84">84. De 1 a 6, o quanto você gosta de impor regras, sempre visando a ordem e a paz?</label><br>
+                            <input type="number" id="pergunta84" name="pergunta84" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta85">85. De 1 a 6, o quanto você é ambicioso?</label><br>
+                            <input type="number" id="pergunta85" name="pergunta85" min="1" max="6"><br><br>
+                        </div>
+                        <div class="pergunta">
+                            <label for="pergunta86">86. De 1 a 6, o quanto você resiste em se rebaixar aos outros?</label><br>
+                            <input type="number" id="pergunta86" name="pergunta86" min="1" max="6"><br><br>
+                        </div>
+                    </div>
+            
+            
+                    <button class="botaoV" type="button" id="botaoVoltar" onclick="voltarGrupo()">Voltar</button>
+                    <button class="botaoP" type="button" id="botaoProximo" onclick="proximoGrupo()">Próximo</button>
+                    <button class="botaoE" type="submit" id="botaoEnviar">Enviar</button>
+                </form>
+            </div>
+            <div class="quadro_colorido centraliza fundo_cinza" id="fundo_colorido">
+                <div>
+                    <p class="resposta" id="resposta">De quem será <br>que você é filho?</p>
+                    <script src="assets/js/comandos.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="espaco2"></div>
+    </section>
+
+    <section class="opcoes centraliza">
+        <div class="espaco"></div>
+        <p>O que pode dar?</p>
+        <div class="d-flex centraliza">
+            <div class="listinha">
+                <p>
+                    ZEUS - Deus dos deuses<br>
+                    POSEIDON - Deus dos mares <br>
+                    HADES - Deus do submundo <br>
+                    ARES - Deus da guerra <br>
+                    HERMES - Deus mensageiro <br>
+                    APOLO - Deus do sol <br>
+                </p>
+            </div>
+            <div class="listinha">
+                <p>
+                    DIONISIO - Deus do Vinho <br>
+                    HEFESTO - Deus ferreiro <br>
+                    AFRODITE - Deusa do amor <br>
+                    ATENA - Deusa da sabedoria <br>
+                    IRIS - Deusa do arco-iris <br>
+                    HIPINOS - Deus do sono <br>
+                </p>
+            </div>
+            <div class="listinha">
+                <p>
+                    NEMESIS - Deusa da vingança <br>
+                    HEBE - Deusa da juventude <br>
+                    TIQUE - Deusa da sorte <br>
+                    HECATE - Deusa da magia <br>
+                    EOLO - Deus dos ventos <br>
+                    EROS - Deus do amor <br>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
