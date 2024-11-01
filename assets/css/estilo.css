@@ -20,6 +20,9 @@
 .centraliza{
     align-items: center;
     justify-content: center;
+}
+
+.alinha{
     text-align: center;
 }
 
@@ -107,6 +110,8 @@ h1{
     color: white;
     font-size: 45px;
     text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .pergunta{
@@ -245,78 +250,67 @@ h1{
     background-color: #ff66c4;
 }
 
-@media (max-width: 350px){
 
-    .fundo{
-        background-image: url(../img/fundo_quiz.png);
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: bottom center;
-        width: 100%;
-        height: 800px;
-        position: relative;
-        background-attachment: fixed;
-    }
+@media (max-width: 1030px){
     
     .cabecalho{
-        height: 50px;
-    }
+        height: 60px;
+    } 
     
     h1{
-        font-size: 18px;
-        color: white;
-        margin-left: 10px;
+        font-size: 30px;
+        margin-left: 15px;
     }
     
     .aviso{
-        margin-left: 15px;
+        margin-left: 25px;
         border-radius:15px;
         
-        height: 390px;
-        width: 250px;
+        height: 280px;
+        width: 870px;
     }
     
     .avisao{
-        font-size: 18px;
+        font-size: 25px;
 
-        margin-left: 15px;
+        margin-left: 25px;
         margin-bottom: 5px;
     }
     
     .textin{
-        font-size: 13px;
+        font-size: 16px;
 
-        margin-left: 15px;
+        margin-left: 25px;
         margin-right: 15px;
         margin-bottom: 20px;
     }
     
     .junta_tudo{
-        display: block;
+        display: flex;
     }
     
     .quadro{
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 25px;
         
-        height: 420px;
-        width: 250px;
-        border-radius:15px 15px 0px 0px;
+        height: 500px;
+        width: 490px;
+        border-radius:15px 0px 0px 15px;
     }
     
     .quadro_colorido{
-        display: block;
+        display: flex;
         text-align: justify;
 
-        margin-top: -2px;
-        margin-left: 15px;
-        height: 100px;
-        width: 250px;
-        border-radius:0px 0px 15px 15px;
+        margin-top: 20px;
+        margin-left: 0px;
+
+        height: 500px;
+        width: 380px;
+        border-radius:0px 15px 15px 0px;
     }
     
     .resposta{
-        color: white;
         font-size: 30px;
         text-align: center;
 
@@ -326,10 +320,11 @@ h1{
     
     .pergunta{
         margin-top: 15px;
-        margin-left: 7px;
+
+        margin-left: 13px;
         margin-right: 10px;
     
-        font-size: 10px;
+        font-size: 17px;
     }
     
     .botaoE{
@@ -354,8 +349,7 @@ h1{
     }
     
     .opcoes p{
-        color:white;
-        font-size: 15px;
+        font-size: 20px;
     
         margin-top: 20px;
         margin-bottom: 20px;
@@ -367,7 +361,7 @@ h1{
     }
     
     .listinha p{
-        font-size: 10px;
+        font-size: 17px;
     }
     
     .espaco{
@@ -515,66 +509,78 @@ h1{
 
 }
 
-@media (max-width: 1030px){
+@media (max-width: 350px){
+
+    .fundo{
+        background-image: url(../img/fundo_quiz.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: bottom center;
+        width: 100%;
+        height: 800px;
+        position: relative;
+        background-attachment: fixed;
+    }
     
     .cabecalho{
-        height: 60px;
-    } 
+        height: 50px;
+    }
     
     h1{
-        font-size: 30px;
-        margin-left: 15px;
+        font-size: 18px;
+        color: white;
+        margin-left: 10px;
     }
     
     .aviso{
-        margin-left: 25px;
+        margin-left: 15px;
         border-radius:15px;
         
-        height: 280px;
-        width: 870px;
+        height: 390px;
+        width: 250px;
     }
     
     .avisao{
-        font-size: 25px;
+        font-size: 18px;
 
-        margin-left: 25px;
+        margin-left: 15px;
         margin-bottom: 5px;
     }
     
     .textin{
-        font-size: 16px;
+        font-size: 13px;
 
-        margin-left: 25px;
+        margin-left: 15px;
         margin-right: 15px;
         margin-bottom: 20px;
     }
     
     .junta_tudo{
-        display: flex;
+        display: block;
     }
     
     .quadro{
         margin-top: 20px;
-        margin-left: 25px;
+        margin-left: 15px;
         
-        height: 500px;
-        width: 490px;
-        border-radius:15px 0px 0px 15px;
+        height: 420px;
+        width: 250px;
+        border-radius:15px 15px 0px 0px;
     }
     
     .quadro_colorido{
-        display: flex;
+        display: block;
         text-align: justify;
 
-        margin-top: 20px;
-        margin-left: 0px;
-
-        height: 500px;
-        width: 380px;
-        border-radius:0px 15px 15px 0px;
+        margin-top: -2px;
+        margin-left: 15px;
+        height: 100px;
+        width: 250px;
+        border-radius:0px 0px 15px 15px;
     }
     
     .resposta{
+        color: white;
         font-size: 30px;
         text-align: center;
 
@@ -584,11 +590,10 @@ h1{
     
     .pergunta{
         margin-top: 15px;
-
-        margin-left: 13px;
+        margin-left: 7px;
         margin-right: 10px;
     
-        font-size: 17px;
+        font-size: 10px;
     }
     
     .botaoE{
@@ -613,7 +618,8 @@ h1{
     }
     
     .opcoes p{
-        font-size: 20px;
+        color:white;
+        font-size: 15px;
     
         margin-top: 20px;
         margin-bottom: 20px;
@@ -625,7 +631,7 @@ h1{
     }
     
     .listinha p{
-        font-size: 17px;
+        font-size: 10px;
     }
     
     .espaco{
@@ -637,3 +643,4 @@ h1{
     }
 
 }
+
