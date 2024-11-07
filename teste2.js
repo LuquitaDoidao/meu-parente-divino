@@ -195,3 +195,37 @@ document.getElementById('botaoEnviar').addEventListener('click', function(event)
 
 // Exibe a primeira página de perguntas ao carregar
 atualizarExibicaoPerguntas();
+
+
+
+function mudarCor(valor) {
+    // Seleciona todos os botões da pergunta atual
+    const botoes = document.querySelectorAll('#pergunta1 button');
+
+    // Define a cor "podre" para todos os botões
+    botoes.forEach(botao => {
+        botao.classList.remove("amarelo", "laranja", "rosa", "lilas", "roxo-claro", "roxo-escuro");
+        if (botao.value === "1") botao.classList.add("amarelo-podre");
+        else if (botao.value === "2") botao.classList.add("laranja-podre");
+        else if (botao.value === "3") botao.classList.add("rosa-podre");
+        else if (botao.value === "4") botao.classList.add("lilas-podre");
+        else if (botao.value === "5") botao.classList.add("roxo-claro-podre");
+        else if (botao.value === "6") botao.classList.add("roxo-escuro-podre");
+    });
+
+    // Agora, altera apenas o botão clicado para a cor normal específica
+    const botaoClicado = document.querySelector(`#pergunta1 button[value="${valor}"]`);
+    botaoClicado.classList.remove(`${botaoClicado.classList[1]}`);
+
+    // Adiciona a cor normal correspondente
+    if (valor === "1") botaoClicado.classList.add("amarelo");
+    else if (valor === "2") botaoClicado.classList.add("laranja");
+    else if (valor === "3") botaoClicado.classList.add("rosa");
+    else if (valor === "4") botaoClicado.classList.add("lilas");
+    else if (valor === "5") botaoClicado.classList.add("roxo-claro");
+    else if (valor === "6") botaoClicado.classList.add("roxo-escuro");
+}
+
+
+
+

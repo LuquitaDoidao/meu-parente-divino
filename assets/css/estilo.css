@@ -6,7 +6,7 @@
 }
 
 
-.pergunta { display: none; margin-bottom: 20px; } /* Oculta as perguntas por padrão */
+.pergunta { display: none; } /* Oculta as perguntas por padrão */
 
 
 .grupo {
@@ -130,6 +130,96 @@ h1{
 .fixo{
     display: flex;
     justify-content: space-evenly;
+}
+
+.botaoEs{
+    margin-left: 17%;
+    margin-top: 2%;
+    width: 40px;
+    height: 30px;
+    margin-right: -0.5%;
+
+    border-radius: 5px 0px 0px 5px;
+    border: #434343 1.5px solid;
+}
+
+.amarelo{
+    background-color: #ffde59;
+    color: white
+}
+
+.amarelo-podre{
+    background-color: #a1966a;
+    color: white
+}
+
+.botaoPe{
+    width: 40px;
+    height: 30px;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    border: 0px;
+    border: #434343 1.5px solid;
+}
+
+.laranja{
+    background-color: #ff914d;
+    color: white
+}
+
+.laranja-podre{
+    background-color: #a17d66;
+    color: white
+}
+
+.rosa{
+    background-color: #ff66c4;
+    color: white
+}
+
+.rosa-podre{
+    background-color: #a16f8e;
+    color: white
+}
+
+.lilas{
+    background-color: #cb6ce6;
+    color: white
+}
+
+.lilas-podre{
+    background-color: #907199;
+    color: white
+}
+
+.roxo-claro{
+    background-color: #8c52ff;
+    color: white
+}
+
+.roxo-claro-podre{
+    background-color: #7b68a1;
+    color: white
+}
+
+.botaoDi{
+    width: 40px;
+    height: 30px;
+    margin-left: -0.5%;
+
+    border-radius: 0px 5px 5px 0px;
+    border: 0px;
+    border: #434343 1.5px solid;
+}
+
+.roxo-escuro{
+    background-color: #5e17eb;
+    color: white
+}
+
+.roxo-escuro-podre{
+    background-color: #6c559a;
+    color: white
 }
 
 .botaoE{
