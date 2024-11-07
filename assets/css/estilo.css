@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+#navigation-buttons {
+    display: block;
+}
+
+#previous, #next, #submit {
+    display: inline-block; /* Ou block, conforme necessário */
+}
+
 .grupo {
     display: none; 
 }
