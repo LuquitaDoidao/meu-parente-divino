@@ -5,13 +5,9 @@
     box-sizing: border-box;
 }
 
-#navigation-buttons {
-    display: block;
-}
 
-#previous, #next, #submit {
-    display: inline-block; /* Ou block, conforme necessário */
-}
+.pergunta { display: none; margin-bottom: 20px; } /* Oculta as perguntas por padrão */
+
 
 .grupo {
     display: none; 
