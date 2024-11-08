@@ -206,19 +206,113 @@ atualizarExibicaoPerguntas();
 
 
 
-function destacarBotao(botaoClicado) {
+function destacarBotao1(botaoClicado) {
     // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
     const botoes = botaoClicado.parentNode.querySelectorAll("button");
 
     // Remove o destaque de todos os botões na pergunta atual
     botoes.forEach(botao => {
-        botao.classList.remove("selecionado");
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
     });
 
     // Adiciona o destaque apenas ao botão clicado
-    botaoClicado.classList.add("selecionado");
+    botaoClicado.classList.add("selecionado1");
 }
 
+function destacarBotao2(botaoClicado) {
+    // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
+    const botoes = botaoClicado.parentNode.querySelectorAll("button");
+
+    // Remove o destaque de todos os botões na pergunta atual
+    botoes.forEach(botao => {
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
+    });
+
+    // Adiciona o destaque apenas ao botão clicado
+    botaoClicado.classList.add("selecionado2");
+}
+
+function destacarBotao3(botaoClicado) {
+    // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
+    const botoes = botaoClicado.parentNode.querySelectorAll("button");
+
+    // Remove o destaque de todos os botões na pergunta atual
+    botoes.forEach(botao => {
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
+    });
+
+    // Adiciona o destaque apenas ao botão clicado
+    botaoClicado.classList.add("selecionado3");
+}
+
+function destacarBotao4(botaoClicado) {
+    // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
+    const botoes = botaoClicado.parentNode.querySelectorAll("button");
+
+    // Remove o destaque de todos os botões na pergunta atual
+    botoes.forEach(botao => {
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
+    });
+
+    // Adiciona o destaque apenas ao botão clicado
+    botaoClicado.classList.add("selecionado4");
+}
+
+function destacarBotao5(botaoClicado) {
+    // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
+    const botoes = botaoClicado.parentNode.querySelectorAll("button");
+
+    // Remove o destaque de todos os botões na pergunta atual
+    botoes.forEach(botao => {
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
+    });
+
+    // Adiciona o destaque apenas ao botão clicado
+    botaoClicado.classList.add("selecionado5");
+}
+
+function destacarBotao6(botaoClicado) {
+    // Seleciona apenas os botões dentro do mesmo contêiner da pergunta
+    const botoes = botaoClicado.parentNode.querySelectorAll("button");
+
+    // Remove o destaque de todos os botões na pergunta atual
+    botoes.forEach(botao => {
+        botao.classList.remove("selecionado1");
+        botao.classList.remove("selecionado2");
+        botao.classList.remove("selecionado3");
+        botao.classList.remove("selecionado4");
+        botao.classList.remove("selecionado5");
+        botao.classList.remove("selecionado6");
+    });
+
+    // Adiciona o destaque apenas ao botão clicado
+    botaoClicado.classList.add("selecionado6");
+}
 
 
 
