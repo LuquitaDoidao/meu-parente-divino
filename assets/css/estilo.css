@@ -6,6 +6,7 @@
 }
 
 
+
 .pergunta { display: none; } /* Oculta as perguntas por padrão */
 
 
@@ -31,7 +32,6 @@
 }
 
 .fundo{
-    background-image: url(../img/fundo_quiz.png);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: bottom center;
@@ -132,95 +132,24 @@ h1{
     justify-content: space-evenly;
 }
 
-.botaoEs{
-    margin-left: 17%;
+.botaoNu{
+    margin-left: 1%;
     margin-top: 2%;
     width: 40px;
-    height: 30px;
-    margin-right: -0.5%;
+    height: 40px;
+    margin-right: 1%;
 
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 50%;
     border: #434343 1.5px solid;
+    background-color: white;
 }
 
-.amarelo{
-    background-color: #ffde59;
-    color: white
+button.selecionado {
+    filter: brightness(80%); /* Escurece o botão clicado */
 }
 
-.amarelo-podre{
-    background-color: #a1966a;
-    color: white
-}
 
-.botaoPe{
-    width: 40px;
-    height: 30px;
-    margin-left: -0.5%;
-    margin-right: -0.5%;
-    border: 0px;
-    border: #434343 1.5px solid;
-}
 
-.laranja{
-    background-color: #ff914d;
-    color: white
-}
-
-.laranja-podre{
-    background-color: #a17d66;
-    color: white
-}
-
-.rosa{
-    background-color: #ff66c4;
-    color: white
-}
-
-.rosa-podre{
-    background-color: #a16f8e;
-    color: white
-}
-
-.lilas{
-    background-color: #cb6ce6;
-    color: white
-}
-
-.lilas-podre{
-    background-color: #907199;
-    color: white
-}
-
-.roxo-claro{
-    background-color: #8c52ff;
-    color: white
-}
-
-.roxo-claro-podre{
-    background-color: #7b68a1;
-    color: white
-}
-
-.botaoDi{
-    width: 40px;
-    height: 30px;
-    margin-left: -0.5%;
-
-    border-radius: 0px 5px 5px 0px;
-    border: 0px;
-    border: #434343 1.5px solid;
-}
-
-.roxo-escuro{
-    background-color: #5e17eb;
-    color: white
-}
-
-.roxo-escuro-podre{
-    background-color: #6c559a;
-    color: white
-}
 
 .botaoE{
     margin-left: 60px;
@@ -297,60 +226,155 @@ h1{
 .fundo_cinza{
     background-color: rgb(85, 85, 85);
 }
+
+.fundao_colorido{
+    background-image: url(../img/fundo_quiz.png);
+}
+
 .fundo_zeus{
     background-color: #5271ff;
 }
+
+.fundao_zeus{
+    background-image: url(../img/fundo_zeus.png);
+}
+
 .fundo_poseidon{
     background-color: #004aad;
 }
+
+.fundao_poseidon{
+    background-image: url(../img/fundo_poseidon.png);
+}
+
 .fundo_hades{
     background-color: #022655;
 }
+
+.fundao_hades{
+    background-image: url(../img/fundo_hades.png);
+}
+
 .fundo_apolo{
     background-color: #ffde59;
 }
+
+.fundao_apolo{
+    background-image: url(../img/fundo_apolo.png);
+}
+
 .fundo_hermes{
     background-color: #5ce1e6;
 }
+
+.fundao_hermes{
+    background-image: url(../img/fundo_hermes.png);
+}
+
 .fundo_ares{
     background-color: #eb3636;
 }
+
+.fundao_ares{
+    background-image: url(../img/fundo_ares.png);
+}
+
 .fundo_afrodite{
     background-color: #ff66c4;
 }
+
+.fundao_afrodite{
+    background-image: url(../img/fundo_afrodite.png);
+}
+
 .fundo_dionisio{
     background-color: #cb6ce6;
 }
+
+.fundao_dionisio{
+    background-image: url(../img/fundo_dionisio.png);
+}
+
 .fundo_hefesto{
     background-color: #ff914d;
 }
+
+.fundao_hefesto{
+    background-image: url(../img/fundo_hefesto.png);
+}
+
 .fundo_atena{
     background-color: #0cc0df;
 }
+
+.fundao_atena{
+    background-image: url(../img/fundo_atena.png);
+}
+
 .fundo_iris{
     background-color: #ff66c4;
 }
+
+.fundao_iris{
+    background-image: url(../img/fundo_iris.png);
+}
+
 .fundo_hipinos{
     background-color: #004aad;
 }
+
+.fundao_hipinos{
+    background-image: url(../img/fundo_hipinos.png);
+}
+
 .fundo_nemesis{
     background-color: #eb3636;
 }
+
+.fundao_nemesis{
+    background-image: url(../img/fundo_nemesis.png);
+}
+
 .fundo_hebe{
     background-color: #ffbd59;
 }
+
+.fundao_hebe{
+    background-image: url(../img/fundo_hebe.png);
+}
+
 .fundo_tique{
     background-color: #00bf63;
 }
+
+.fundao_tique{
+    background-image: url(../img/fundo_tique.png);
+}
+
 .fundo_hecate{
     background-color: #cb6ce6;
 }
+
+.fundao_hecate{
+    background-image: url(../img/fundo_hecate.png);
+}
+
 .fundo_eolo{
     background-color: #5ce1e6;
 }
+
+.fundao_eolo{
+    background-image: url(../img/fundo_eolo.png);
+}
+
 .fundo_eros{
     background-color: #ff66c4;
 }
+
+.fundao_eros{
+    background-image: url(../img/fundo_eros.png);
+}
+
 
 
 @media (max-width: 1030px){
@@ -428,6 +452,19 @@ h1{
     
         font-size: 17px;
     }
+
+    .botaoNu{
+        margin-left: 1%;
+        margin-top: 2%;
+        width: 17px;
+        height: 17px;
+        margin-right: 1%;
+        font-size: 11px;
+    
+        border-radius: 50%;
+        border: #434343 1.5px solid;
+        background-color: white;
+    }
     
     .botaoE{
         margin-left: 0px;
@@ -478,17 +515,6 @@ h1{
 
 
 @media (max-width: 550px){
-
-    .fundo{
-        background-image: url(../img/fundo_quiz.png);
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: bottom center;
-        width: 100%;
-        height: 800px;
-        position: relative;
-        background-attachment: fixed;
-    }
     
     .cabecalho{
         height: 50px;
@@ -563,9 +589,23 @@ h1{
     
         font-size: 13px;
     }
+
+    .botaoNu{
+        margin-left: 1%;
+        margin-top: 2%;
+        width: 17px;
+        height: 17px;
+        margin-right: 1%;
+        font-size: 11px;
+    
+        border-radius: 50%;
+        border: #434343 1.5px solid;
+        background-color: white;
+    }
     
     .botaoE{
         margin-left: 0px;
+        margin-top: 20px;
         border-radius: 7px;
         height: 25px;
         width: 70px;
@@ -573,6 +613,7 @@ h1{
     
     .botaoP{
         margin-left: 0px;
+        margin-top: 20px;
         border-radius: 7px;
         height: 25px;
         width: 70px;
@@ -580,6 +621,7 @@ h1{
     
     .botaoV{
         margin-left: 0px;
+        margin-top: 20px;
         border-radius: 7px;
         height: 25px;
         width: 70px;
